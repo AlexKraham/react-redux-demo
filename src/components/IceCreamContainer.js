@@ -9,6 +9,7 @@ function IceCreamContainer() {
   const handleBuyIceCream = () => {
     dispatch(buyIceCream())
   }
+
   return (
     <div>
       <h2>Number of Ice Creams: {numOfIceCreams}</h2>
